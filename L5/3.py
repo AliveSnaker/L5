@@ -1,0 +1,13 @@
+beatles = []
+print("beatles",beatles)
+beatles.append('John Lennon')
+beatles.append('Paul McCartney')
+beatles.append('George Harrison')
+print('Beatles', beatles)
+beatles.append('Stu Sutcliffe' )
+beatles.append('Pete Best')
+print("New Beatles", beatles)
+del(beatles[4])
+print("Old Beatles",beatles)
+beatles.insert(0,'Ringo Starr')
+print("Beatles v2", beatles)
